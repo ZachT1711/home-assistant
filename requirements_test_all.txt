@@ -93,7 +93,7 @@ androidtv==0.0.38
 apns2==0.3.0
 
 # homeassistant.components.apprise
-apprise==0.8.2
+apprise==0.9.5.1
 
 # homeassistant.components.aprs
 aprslib==0.6.46
@@ -318,7 +318,7 @@ nuheat==0.3.0
 # homeassistant.components.opencv
 # homeassistant.components.tensorflow
 # homeassistant.components.trend
-numpy==1.17.4
+numpy==1.22.2
 
 # homeassistant.components.google
 oauth2client==4.0.0
@@ -686,3 +686,7 @@ zigpy-xbee-homeassistant==0.8.0
 
 # homeassistant.components.zha
 zigpy-zigate==0.5.0
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tlslite-ng>=0.8.0-alpha3 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
