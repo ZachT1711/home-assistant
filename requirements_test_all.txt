@@ -576,7 +576,7 @@ rxv==0.6.0
 samsungctl[websocket]==0.7.1
 
 # homeassistant.components.sentry
-sentry-sdk==0.13.5
+sentry-sdk==2.8.0
 
 # homeassistant.components.simplisafe
 simplisafe-python==5.3.6
